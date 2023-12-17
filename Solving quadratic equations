@@ -5,7 +5,7 @@ print("-8")
 print("39")
 print("let's start?")
 answer = input()
-while answer != "no":
+while answer == "yes":
     a = int(input())
     b = int(input())
     c = int(input())
