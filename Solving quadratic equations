@@ -1,0 +1,23 @@
+print("Enter the quadratic equation in first place, put the first coefficient in second place, second coefficient in third place, free term")
+print("input format:")
+print("2")
+print("-8")
+print("39")
+print("let's start?")
+answer = input()
+while answer != "no":
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    d = b ^ 2 - 4 * a * c
+    if d > 0 :
+        print("discriminant =", d)
+        x1 = -1 * b + d / a * 2
+        x2 = -1 * b - d / a * 2
+        print(x1)
+        print(x2)
+    else:
+        print("No roots")
+    print("Shall we continue?")
+    answer = input()
+print("Good bye!")
